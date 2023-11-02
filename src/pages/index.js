@@ -1,6 +1,6 @@
 import { useAuth } from "../contexts/AuthContext";
 import Header from "../components/Header";
-import PrincipalImg from "../components/Pincipal-Img";
+import PrincipalImg from "../components/Principal-Img";
 import Footer from "../components/Footer";
 import Movies from "../components/Movies";
 
