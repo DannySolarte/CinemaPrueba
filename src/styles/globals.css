@@ -178,6 +178,11 @@ a {
   margin-bottom: 20px;
 }
 
+.img-pelicula:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
 .input-group {
   display: flex;
   width: 20%;
