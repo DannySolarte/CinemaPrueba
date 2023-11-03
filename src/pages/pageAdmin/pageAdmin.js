@@ -1,8 +1,8 @@
-import { useAuth } from "../contexts/AuthContext";
-import Header from "../components/Header";
-import PrincipalImg from "../components/Principal-Img";
-import Footer from "../components/Footer";
-import Movies from "../components/Movies";
+import { useAuth } from "../../contexts/AuthContext";
+import Header from "../../components/Header";
+import PrincipalImg from "../../components/Principal-Img";
+import Footer from "../../components/Footer";
+import Movies from "../../components/Movies";
 
 export default function App() {
   const { isLoggedIn } = useAuth();
@@ -14,7 +14,7 @@ export default function App() {
       <Movies/>
       <Footer/>
 
-      {isLoggedIn ? <LoggedInText /> : <LoggedOutText />}
+    
     </div>
   );
 }

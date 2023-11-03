@@ -1,0 +1,54 @@
+
+
+.dialog{
+    border-radius: 20px;
+}
+
+.content {
+    padding-top: 2rem;
+    width: 28rem;
+    height: 27rem;
+    margin: 5rem 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+
+  .disabledButton {
+    background-color:rgba(131, 131, 131, 0.726);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    width: 8rem;
+    margin-top: 1.5rem;
+  }
+  .activeButton{
+    background-color:#F6922A;
+    color: #ffffff9a;
+    font-size: 1rem;
+    width: 8rem;
+    margin-top: 1.5rem;
+  } 
+  .activeButton:hover{
+    background-color:#f6932ad2;
+    color: #5c5a5a;
+    width: 8rem;
+    margin-top: 1.5rem;
+  }
+  .img{
+    width: 12rem;
+    margin-top: -3rem;
+  }
+
+  .fragment{
+  margin: 30rem;
+  }
+  .btnAcount{
+   margin: 2rem;
+   font-size: 1.12rem;
+   color: #474646;
+  }
+  .circle{
+    margin-top: 2rem;
+  }

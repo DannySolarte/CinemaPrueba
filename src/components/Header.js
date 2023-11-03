@@ -46,7 +46,18 @@ export default function Header() {
   return (
     <AppBar className="header" position="static">
       <img className="img-logo-inicio" src="https://firebasestorage.googleapis.com/v0/b/cinea-ninjasdev.appspot.com/o/Logotipos%2Flogo%20cinema%203.png?alt=media&token=f4ba902b-cda7-4393-978c-32169b3a6259&_gl=1*h6qtn9*_ga*MTQ1MDA0MTE5OC4xNjk3NzU4OTU2*_ga_CW55HF8NVT*MTY5ODg5MTg5My42LjEuMTY5ODg5MjI4MC40MC4wLjA."></img>
-
+      
+       {isLoggedIn ? (
+            <Fragment>
+               <SearchBtn/>
+            </Fragment>
+         
+            
+          ) : (
+            <Fragment>
+              <h1>Barra desactivada</h1>
+            </Fragment>
+          )}
       <IconButton onClick={openPopover}>
         <OnlineIndicator online={isLoggedIn}>
           <Avatar src={account?.username || ""} alt={account?.username || ""} />
