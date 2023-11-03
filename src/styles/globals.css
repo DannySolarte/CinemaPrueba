@@ -143,17 +143,41 @@ a {
 }
 
 .img-logo-inicio {
+  margin-left: 10px;
+  margin: 5px;
   display: flex;
   width: 150px;
   height: 60px;
 }
 .img-body {
-  display: flex;
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/cinea-ninjasdev.appspot.com/o/Im%C3%A1genes%20inicio%2Fsaw-x-4k-wallpaper-extracted-directly-from-v0-mnpnfu10iqfb1.png?alt=media&token=2e4d79e9-8996-4966-b00f-a43d6b1c8552&_gl=1*l4v10q*_ga*MTQ1MDA0MTE5OC4xNjk3NzU4OTU2*_ga_CW55HF8NVT*MTY5ODk3NjIyNy44LjEuMTY5ODk3NjY0Ny40MC4wLjA.");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  min-height: 850px;
+  font-size: xx-large;
+  padding-top: 25%;
+  padding-left: 10%;
+  text-align: start;
+}
+
+.button-reserva {
+  margin-top: 5%;
+  width: 200px;
+  height: 80px;
+  background-color: rgba(246, 147, 42, 0.877);
+  border-radius: 15px;
+  color: white;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.514);
+}
+
+.container-imgPrincipal {
+  width: 100%;
+  display: flex;
 }
 
 .titulo-cartelera {
-  color: rgba(123, 123, 123, 1);
+  color: rgb(170, 168, 168);
   margin: 5%;
 }
 .peliculas-cartelera {
