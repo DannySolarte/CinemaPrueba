@@ -144,7 +144,8 @@ a {
 }
 
 .img-logo-inicio {
-  margin-left: 10px;
+  margin-left: 1%;
+  padding-top: 0.5%;
   margin: 5px;
   display: flex;
   width: 150px;
@@ -157,8 +158,8 @@ a {
   width: 100%;
   min-height: 850px;
   font-size: xx-large;
-  padding-top: 25%;
-  padding-left: 10%;
+  padding-top: 18%;
+  padding-left: 15%;
   text-align: start;
 }
 
@@ -185,7 +186,7 @@ a {
   display: flex;
   align-content: space-between;
   flex-wrap: wrap;
-  margin-left: 3%;
+  padding-left: 3%;
   margin-top: 1%;
   width: 100%;
 }
