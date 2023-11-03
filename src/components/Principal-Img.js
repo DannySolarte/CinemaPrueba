@@ -1,9 +1,12 @@
-const Body = () => {
+const principalImg = () => {
     return (
-      <div>
-        <img className="img-body" src="https://firebasestorage.googleapis.com/v0/b/cinea-ninjasdev.appspot.com/o/Im%C3%A1genes%20inicio%2Fsaw2.png?alt=media&token=b893858e-064d-492c-b364-0fb2774eac2c" width={1706} height={960}/>
-      </div>
+        <div className="container-imgPrincipal">
+          <div className="img-body">
+           <a><h1 className="titulo-imgPrincipal">Saw X</h1></a> <br></br>
+           <button className="button-reserva"><h2>Reservar</h2></button>
+          </div>
+        </div>
     )
   }
   
-  export default Body
+  export default principalImg
