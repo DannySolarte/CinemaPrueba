@@ -157,20 +157,23 @@ a {
   background-size: cover;
   width: 100%;
   min-height: 850px;
-  font-size: xx-large;
-  padding-top: 18%;
-  padding-left: 15%;
-  text-align: start;
+  padding-top: 20%;
+  padding-left: 5%;
 }
 
 .button-reserva {
   margin-top: 5%;
   width: 200px;
-  height: 80px;
-  background-color: rgba(246, 147, 42, 0.877);
+  height: 70px;
+  background-color: rgba(231, 135, 31, 0.877);
   border-radius: 15px;
+  border-color: rgba(246, 147, 42, 0.164);
   color: white;
   box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.514);
+}
+.button-reserva:hover {
+  transform: scale(1.1);
+  transition: all 1s;
 }
 
 .container-imgPrincipal {
