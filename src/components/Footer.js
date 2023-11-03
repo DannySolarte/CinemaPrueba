@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div id="section_footer">
      <div className='text-center py-4'>
-       <Link href="/" target="_blank" className='btn-link' type="reset" value="Reset">
+       <Link href="/"  className='btn-link' type="reset" value="Reset">
          Inicio
        </Link>
         <span>  |  </span>
